@@ -9,21 +9,57 @@
 /* Begin PBXBuildFile section */
 		AFEA11DD27C1BAE200A64787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA11DC27C1BAE200A64787 /* AppDelegate.swift */; };
 		AFEA11DF27C1BAE200A64787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA11DE27C1BAE200A64787 /* SceneDelegate.swift */; };
-		AFEA11E127C1BAE200A64787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA11E027C1BAE200A64787 /* ViewController.swift */; };
 		AFEA11E427C1BAE200A64787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEA11E227C1BAE200A64787 /* Main.storyboard */; };
 		AFEA11E627C1BAE300A64787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFEA11E527C1BAE300A64787 /* Assets.xcassets */; };
 		AFEA11E927C1BAE300A64787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEA11E727C1BAE300A64787 /* LaunchScreen.storyboard */; };
+		AFEA11F127C1BB1B00A64787 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA11F027C1BB1B00A64787 /* AppCoordinator.swift */; };
+		AFEA11F327C2712700A64787 /* EventListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA11F227C2712700A64787 /* EventListCoordinator.swift */; };
+		AFEA11F527C2722500A64787 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA11F427C2722500A64787 /* EventListViewController.swift */; };
+		AFEA11F727C278B200A64787 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA11F627C278B200A64787 /* UIColor+Extensions.swift */; };
+		AFEA11FD27C2803400A64787 /* EventsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFEA11FB27C2803400A64787 /* EventsApp.xcdatamodeld */; };
+		AFEA11FF27C280E800A64787 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA11FE27C280E800A64787 /* CoreDataManager.swift */; };
+		AFEA120127C2872200A64787 /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA120027C2872200A64787 /* EventListViewModel.swift */; };
+		AFEA120327C288C100A64787 /* AddEventCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA120227C288C100A64787 /* AddEventCoordinator.swift */; };
+		AFEA120927C28D7700A64787 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA120827C28D7700A64787 /* AddEventViewController.swift */; };
+		AFEA120B27C28E4100A64787 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA120A27C28E4100A64787 /* UIViewController+Extensions.swift */; };
+		AFEA120D27C28F8000A64787 /* AddEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA120C27C28F8000A64787 /* AddEventViewModel.swift */; };
+		AFEA121027C2AF4A00A64787 /* TitleSubtitleCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA120F27C2AF4A00A64787 /* TitleSubtitleCellViewModel.swift */; };
+		AFEA121327C2AFC100A64787 /* TitleSubtitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA121227C2AFC100A64787 /* TitleSubtitleCell.swift */; };
+		AFEA121527C3E35100A64787 /* ImagePickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA121427C3E35100A64787 /* ImagePickerCoordinator.swift */; };
+		AFEA121727C405F500A64787 /* EventsCellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA121627C405F500A64787 /* EventsCellBuilder.swift */; };
+		AFEA121927C4121400A64787 /* EventCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA121827C4121400A64787 /* EventCellViewModel.swift */; };
+		AFEA121B27C418A800A64787 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA121A27C418A800A64787 /* EventCell.swift */; };
+		AFEA121D27C43B6B00A64787 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA121C27C43B6B00A64787 /* UIView+Extensions.swift */; };
+		AFEA121F27C46A6C00A64787 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA121E27C46A6C00A64787 /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AFEA11D927C1BAE200A64787 /* EventsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFEA11DC27C1BAE200A64787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFEA11DE27C1BAE200A64787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AFEA11E027C1BAE200A64787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFEA11E327C1BAE200A64787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFEA11E527C1BAE300A64787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFEA11E827C1BAE300A64787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFEA11EA27C1BAE300A64787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEA11F027C1BB1B00A64787 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		AFEA11F227C2712700A64787 /* EventListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCoordinator.swift; sourceTree = "<group>"; };
+		AFEA11F427C2722500A64787 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		AFEA11F627C278B200A64787 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		AFEA11FC27C2803400A64787 /* EventsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventsApp.xcdatamodel; sourceTree = "<group>"; };
+		AFEA11FE27C280E800A64787 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		AFEA120027C2872200A64787 /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
+		AFEA120227C288C100A64787 /* AddEventCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventCoordinator.swift; sourceTree = "<group>"; };
+		AFEA120827C28D7700A64787 /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		AFEA120A27C28E4100A64787 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		AFEA120C27C28F8000A64787 /* AddEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewModel.swift; sourceTree = "<group>"; };
+		AFEA120F27C2AF4A00A64787 /* TitleSubtitleCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubtitleCellViewModel.swift; sourceTree = "<group>"; };
+		AFEA121227C2AFC100A64787 /* TitleSubtitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubtitleCell.swift; sourceTree = "<group>"; };
+		AFEA121427C3E35100A64787 /* ImagePickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCoordinator.swift; sourceTree = "<group>"; };
+		AFEA121627C405F500A64787 /* EventsCellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCellBuilder.swift; sourceTree = "<group>"; };
+		AFEA121827C4121400A64787 /* EventCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCellViewModel.swift; sourceTree = "<group>"; };
+		AFEA121A27C418A800A64787 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		AFEA121C27C43B6B00A64787 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		AFEA121E27C46A6C00A64787 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +92,73 @@
 		AFEA11DB27C1BAE200A64787 /* EventsApp */ = {
 			isa = PBXGroup;
 			children = (
+				AFEA121127C2AF9300A64787 /* Views */,
+				AFEA120E27C29F7500A64787 /* ViewModels */,
+				AFEA11F927C27B0600A64787 /* Controllers */,
+				AFEA11F827C27AF400A64787 /* Extensions */,
+				AFEA11FA27C27B4300A64787 /* Coordinators */,
 				AFEA11DC27C1BAE200A64787 /* AppDelegate.swift */,
 				AFEA11DE27C1BAE200A64787 /* SceneDelegate.swift */,
-				AFEA11E027C1BAE200A64787 /* ViewController.swift */,
 				AFEA11E227C1BAE200A64787 /* Main.storyboard */,
 				AFEA11E527C1BAE300A64787 /* Assets.xcassets */,
 				AFEA11E727C1BAE300A64787 /* LaunchScreen.storyboard */,
 				AFEA11EA27C1BAE300A64787 /* Info.plist */,
+				AFEA11FB27C2803400A64787 /* EventsApp.xcdatamodeld */,
+				AFEA11FE27C280E800A64787 /* CoreDataManager.swift */,
+				AFEA121627C405F500A64787 /* EventsCellBuilder.swift */,
 			);
 			path = EventsApp;
+			sourceTree = "<group>";
+		};
+		AFEA11F827C27AF400A64787 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AFEA11F627C278B200A64787 /* UIColor+Extensions.swift */,
+				AFEA120A27C28E4100A64787 /* UIViewController+Extensions.swift */,
+				AFEA121C27C43B6B00A64787 /* UIView+Extensions.swift */,
+				AFEA121E27C46A6C00A64787 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AFEA11F927C27B0600A64787 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFEA11F427C2722500A64787 /* EventListViewController.swift */,
+				AFEA120827C28D7700A64787 /* AddEventViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AFEA11FA27C27B4300A64787 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				AFEA11F027C1BB1B00A64787 /* AppCoordinator.swift */,
+				AFEA11F227C2712700A64787 /* EventListCoordinator.swift */,
+				AFEA120227C288C100A64787 /* AddEventCoordinator.swift */,
+				AFEA121427C3E35100A64787 /* ImagePickerCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		AFEA120E27C29F7500A64787 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AFEA120027C2872200A64787 /* EventListViewModel.swift */,
+				AFEA120C27C28F8000A64787 /* AddEventViewModel.swift */,
+				AFEA120F27C2AF4A00A64787 /* TitleSubtitleCellViewModel.swift */,
+				AFEA121827C4121400A64787 /* EventCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AFEA121127C2AF9300A64787 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFEA121227C2AFC100A64787 /* TitleSubtitleCell.swift */,
+				AFEA121A27C418A800A64787 /* EventCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +232,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFEA11E127C1BAE200A64787 /* ViewController.swift in Sources */,
+				AFEA121027C2AF4A00A64787 /* TitleSubtitleCellViewModel.swift in Sources */,
+				AFEA11F127C1BB1B00A64787 /* AppCoordinator.swift in Sources */,
+				AFEA121F27C46A6C00A64787 /* Date+Extensions.swift in Sources */,
+				AFEA121D27C43B6B00A64787 /* UIView+Extensions.swift in Sources */,
+				AFEA11F527C2722500A64787 /* EventListViewController.swift in Sources */,
 				AFEA11DD27C1BAE200A64787 /* AppDelegate.swift in Sources */,
+				AFEA120D27C28F8000A64787 /* AddEventViewModel.swift in Sources */,
+				AFEA11F727C278B200A64787 /* UIColor+Extensions.swift in Sources */,
+				AFEA120B27C28E4100A64787 /* UIViewController+Extensions.swift in Sources */,
 				AFEA11DF27C1BAE200A64787 /* SceneDelegate.swift in Sources */,
+				AFEA121B27C418A800A64787 /* EventCell.swift in Sources */,
+				AFEA120327C288C100A64787 /* AddEventCoordinator.swift in Sources */,
+				AFEA11F327C2712700A64787 /* EventListCoordinator.swift in Sources */,
+				AFEA120927C28D7700A64787 /* AddEventViewController.swift in Sources */,
+				AFEA121727C405F500A64787 /* EventsCellBuilder.swift in Sources */,
+				AFEA120127C2872200A64787 /* EventListViewModel.swift in Sources */,
+				AFEA121927C4121400A64787 /* EventCellViewModel.swift in Sources */,
+				AFEA121527C3E35100A64787 /* ImagePickerCoordinator.swift in Sources */,
+				AFEA121327C2AFC100A64787 /* TitleSubtitleCell.swift in Sources */,
+				AFEA11FF27C280E800A64787 /* CoreDataManager.swift in Sources */,
+				AFEA11FD27C2803400A64787 /* EventsApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +409,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +438,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +474,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFEA11FB27C2803400A64787 /* EventsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFEA11FC27C2803400A64787 /* EventsApp.xcdatamodel */,
+			);
+			currentVersion = AFEA11FC27C2803400A64787 /* EventsApp.xcdatamodel */;
+			path = EventsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AFEA11D127C1BAE100A64787 /* Project object */;
 }
