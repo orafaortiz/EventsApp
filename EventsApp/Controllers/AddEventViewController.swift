@@ -9,7 +9,7 @@ import UIKit
 
 class AddEventViewController: UIViewController {
     
-    var viewModel: AddEventViewModel!
+    var viewModel: AddEditEventViewModel!
 
     @IBOutlet weak var tableView: UITableView!
     

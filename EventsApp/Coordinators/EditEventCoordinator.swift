@@ -1,20 +1,18 @@
 //
-//  AddEventCoordinator.swift
+//  EditEventCoordinator.swift
 //  EventsApp
 //
-//  Created by Rafael Ortiz on 20/02/22.
+//  Created by Rafael Ortiz on 24/02/22.
 //
 
-import Foundation
 import UIKit
 
-final class AddEventCoordinator: Coordinator {
+final class EditEventCoordinator: Coordinator {
     private(set) var childCoordinators: [Coordinator] = []
     private let navigationController: UINavigationController
-    private var modalNavigationController: UINavigationController?
     private var completion: (UIImage) -> Void = { _ in }
     
-    var parentCoordinator: EventListCoordinator?
+    var parentCoordinator: EventDetailCoordinator?
     
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
@@ -24,16 +22,11 @@ final class AddEventCoordinator: Coordinator {
         // create add event view controller
         // create add event view model
         // present modally controller using navigation controller
-        self.modalNavigationController = UINavigationController()
-        let addEventViewController: AddEventViewController = .instantiate()
-        modalNavigationController?.setViewControllers([addEventViewController], animated: false)
-        let addEventViewModel = AddEditEventViewModel(cellBuilder: EventsCellBuilder())
-        addEventViewModel.coordinator = self
-        addEventViewController.viewModel = addEventViewModel
         
-        if let modalNavigationController = modalNavigationController {
-            navigationController.present(modalNavigationController, animated: true, completion: nil)
-        }
+        let editEventViewController: AddEventViewController = .instantiate()
+        let editEventViewModel = EditEventViewModel(cellBuilder: EventsCellBuilder())
+        editEventViewModel.coordinator = self
+        editEventViewController.viewModel = editEventViewModel
     }
     
     func didFinish() {
