@@ -16,7 +16,7 @@ final class TitleSubtitleCellViewModel {
         case image
     }
     
-    let title: String
+    var title: String
     private(set) var subtitle: String
     let placeholder: String
     let type: CellType
@@ -35,6 +35,10 @@ final class TitleSubtitleCellViewModel {
         self.placeholder = placeholder
         self.type = type
         self.onCellUpdate = onCellUpdate
+    }
+    
+    func update(title: String) {
+        self.title = title
     }
     
     func update(_ subtitle: String) {

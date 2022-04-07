@@ -30,6 +30,8 @@ final class EventListViewModel {
     }
     
     func reload() {
+        // to refresh the image on tableview
+        EventCellViewModel.imageCache.removeAllObjects()
         let events = coreDataManager.fetchEvents()
         
         cells = events.map {

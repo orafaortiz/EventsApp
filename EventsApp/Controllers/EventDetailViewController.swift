@@ -29,7 +29,7 @@ final class EventDetailViewController: UIViewController {
         
         navigationItem.rightBarButtonItem = .init(image: UIImage(systemName: "pencil"),
                                                   style: .plain, target: viewModel,
-                                                  action: viewModel.editButtonTapped)
+                                                  action: #selector(viewModel.editButtonTapped))
         viewModel.viewDidLoad()
     }
     
